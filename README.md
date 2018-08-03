@@ -13,5 +13,6 @@ below. Currently this pack features many custom flowers, and the ability to grow
 6. enter your world or type /reload if you are in the world
 # Download
 v0.1 - https://github.com/TheBMan-Datapacks/Agriflora/raw/master/Agriflora%200.1.zip
+v0.1 RP - https://github.com/TheBMan-Datapacks/Agriflora/raw/master/Agriflora%20RP.zip
 
 
