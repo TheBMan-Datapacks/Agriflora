@@ -1,0 +1,10 @@
+execute at @e[name=ManaCStand] if block ~ ~ ~ minecraft:cauldron[level=0] run scoreboard players set @e[name=ManaCStand,distance=..1] ManaCauldron 0
+execute at @e[name=ManaCStand] if block ~ ~ ~ minecraft:cauldron[level=1] run scoreboard players set @e[name=ManaCStand,distance=..1] ManaCauldron 1
+execute at @e[name=ManaCStand] if block ~ ~ ~ minecraft:cauldron[level=2] run scoreboard players set @e[name=ManaCStand,distance=..1] ManaCauldron 2
+execute at @e[name=ManaCStand] if block ~ ~ ~ minecraft:cauldron[level=3] run scoreboard players set @e[name=ManaCStand,distance=..1] ManaCauldron 3
+execute at @e[name=ManaCStand] if score @e[name=ManaCStand,sort=nearest,limit=1] ManaCauldron matches 0 if block ~ ~ ~ air run summon item ~ ~ ~ {Tags:["IsBroke"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Mana Cauldron\"}",Lore:["Empty"]},Unbreakable:1b,Damage:15}}}
+execute at @e[name=ManaCStand] if score @e[name=ManaCStand,sort=nearest,limit=1] ManaCauldron matches 1 if block ~ ~ ~ air run summon item ~ ~ ~ {Tags:["IsBroke"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Mana Cauldron\"}",Lore:["level:1"]},Unbreakable:1b,Damage:15}}}
+execute at @e[name=ManaCStand] if score @e[name=ManaCStand,sort=nearest,limit=1] ManaCauldron matches 2 if block ~ ~ ~ air run summon item ~ ~ ~ {Tags:["IsBroke"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Mana Cauldron\"}",Lore:["level:2"]},Unbreakable:1b,Damage:15}}}
+execute at @e[name=ManaCStand] if score @e[name=ManaCStand,sort=nearest,limit=1] ManaCauldron matches 3 if block ~ ~ ~ air run summon item ~ ~ ~ {Tags:["IsBroke"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Mana Cauldron\"}",Lore:["Full"]},Unbreakable:1b,Damage:15}}}
+execute at @e[name=ManaCStand] if block ~ ~ ~ air run kill @e[type=item,nbt={Item:{id:"minecraft:cauldron"}}]
+execute at @e[name=ManaCStand] if block ~ ~ ~ air run kill @e[name=ManaCStand,distance=..1]

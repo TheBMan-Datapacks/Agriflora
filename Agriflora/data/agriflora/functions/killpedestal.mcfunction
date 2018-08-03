@@ -1,0 +1,2 @@
+execute at @e[name=CraftingStand] if block ~ ~ ~ air run kill @e[type=item,nbt={Item:{id:"minecraft:iron_hoe"}}]
+execute at @e[name=CraftingStand] if block ~ ~ ~ air run kill @e[name=CraftingStand,distance=...1]

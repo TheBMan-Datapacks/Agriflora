@@ -1,0 +1,1 @@
+playsound block.anvil.use master @a[distance=..10] ~ ~ ~ 0.5 1 0.5 

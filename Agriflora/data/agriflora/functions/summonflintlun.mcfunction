@@ -1,0 +1,2 @@
+execute at @e[type=drowned,tag=!IsHere] if block ~ ~-1 ~ gravel run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"flintlun\"}"},Unbreakable:1b,Damage:17}}}
+tag @e[type=drowned] add IsHere

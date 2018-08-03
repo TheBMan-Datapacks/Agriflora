@@ -1,0 +1,4 @@
+execute at @e[type=creeper,tag=!IsHere] if block ~1 ~ ~ jungle_log run summon item ~ ~ ~  {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Lazulia\"}"},Unbreakable:1b,Damage:19}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~-1 ~ ~ jungle_log run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Lazulia\"}"},Unbreakable:1b,Damage:19}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~ ~1 jungle_log run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Lazulia\"}"},Unbreakable:1b,Damage:19}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~ ~-1 jungle_log run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Lazulia\"}"},Unbreakable:1b,Damage:19}}}

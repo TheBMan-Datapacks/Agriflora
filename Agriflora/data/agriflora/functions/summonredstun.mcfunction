@@ -1,0 +1,6 @@
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~-1 ~ stone run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Redstun\"}"},Unbreakable:1b,Damage:13}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~-1 ~ andesite run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Redstun\"}"},Unbreakable:1b,Damage:13}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~-1 ~ diorite run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Redstun\"}"},Unbreakable:1b,Damage:13}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~-1 ~ granite run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Redstun\"}"},Unbreakable:1b,Damage:13}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~-1 ~ gravel run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Redstun\"}"},Unbreakable:1b,Damage:13}}}
+tag @e[type=creeper] add IsHere

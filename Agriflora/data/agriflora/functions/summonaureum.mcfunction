@@ -1,0 +1,4 @@
+execute at @e[type=creeper,tag=!IsHere] if block ~1 ~ ~ dark_oak_log run summon item ~ ~ ~  {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Aureum Rose\"}"},Unbreakable:1b,Damage:12}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~-1 ~ ~ dark_oak_log run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Aureum Rose\"}"},Unbreakable:1b,Damage:12}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~ ~1 dark_oak_log run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Aureum Rose\"}"},Unbreakable:1b,Damage:12}}}
+execute at @e[type=creeper,tag=!IsHere] if block ~ ~ ~-1 dark_oak_log run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Aureum Rose\"}"},Unbreakable:1b,Damage:12}}}
