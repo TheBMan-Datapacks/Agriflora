@@ -1,3 +1,3 @@
-execute at @e[type=illusion_illager,tag=!IsHere] run scoreboard players add SpawnFlower IsDMSpawn 1
-execute at @e[type=illusion_illager,tag=!IsHere] if score SpawnFlower IsDMSpawn matches 3 run summon slime ~ ~ ~ {CustomName: "{\"text\":\"EmralZom\"}",NoGravity:1b,Health:0.5f,NoAI:1,Silent:1b,DeathLootTable:"none"}
-execute at @e[type=illusion_illager,tag=!IsHere] if score SpawnFlower IsDMSpawn matches 3 run summon armor_stand ~ ~0.4 ~ {CustomName: "{\"text\":\"EmralStand\"}",Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",Count:1b,tag:{Unbreakable:1,Damage:12b}}],NoGravity:1b,DisabledSlots:2039583}
+execute at @e[type=illusioner,tag=!IsHere] run scoreboard players add SpawnFlower IsDMSpawn 1
+execute at @e[type=illusioner,tag=!IsHere] if score SpawnFlower IsDMSpawn matches 3 run summon slime ~ ~ ~ {CustomName: "{\"text\":\"EmralZom\"}",NoGravity:1b,Health:0.5f,NoAI:1,Silent:1b,DeathLootTable:"none"}
+execute at @e[type=illusioner,tag=!IsHere] if score SpawnFlower IsDMSpawn matches 3 run summon armor_stand ~ ~0.4 ~ {CustomName: "{\"text\":\"EmralStand\"}",Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",Count:1b,tag:{Unbreakable:1,Damage:14b}}],NoGravity:1b,DisabledSlots:2039583}
